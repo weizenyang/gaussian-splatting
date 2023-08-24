@@ -73,3 +73,5 @@ if not args.skip_metrics:
         scenes_string += "\"" + args.output_path + "/" + scene + "\" "
 
     os.system("python metrics.py -m " + scenes_string)
+
+    
